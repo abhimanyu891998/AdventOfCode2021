@@ -47,7 +47,6 @@ int main() {
 
     while(n--) {
         unordered_map<string,  long long> newMap;
-        cout<<n<<" "<<pairFreqs.size()<<endl;
         for(auto &[pair, freq]: pairFreqs) {
                 char insert = rules[pair];
                 long long f = freq;
@@ -67,9 +66,7 @@ int main() {
         swap(newMap, pairFreqs);
     }
 
-    for(auto &[pair, freq]: pairFreqs) {
-        cout<<pair<<" "<<freq<<endl;
-    }
+
 
     long long maxi =  0;
     long long mini =  LLONG_MAX;
