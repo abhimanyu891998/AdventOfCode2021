@@ -1,0 +1,1 @@
+This one was tricky but easy to understand, still haven't done day 19 though.
